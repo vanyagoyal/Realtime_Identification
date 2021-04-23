@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Realtime Identification</title>
+</head>
+<body background="Background.jpg">
+    <center>
+        <h3 class="btn btn-info heading text-capitalize">Realtime Image identification
+            <hr style="width: 230px;">
+            <center>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+                    Model is trained on :
+                    <br>
+                    <div class="btn btn-warning" style="font-size:18px;">
+                      Phone | Book | Remote | Bottle
+                    </div>
+                </div>
+            </center>
+            <br>
+        </h3>
+        <br>
+        <br>
+        <p class="btn btn-warning result_p">Object :-
+            <span id="obj_name"></span>
+        </p>
+        <br><br>
+        <p class="btn btn-warning result_p">Accuracy :-
+            <span id="accuracy"></span>
+        </p>
+    </center>
+    <footer>Developed By :- Vanya Goyal</footer>
+    <script src="main.js"></script>
+</body>
+</html>
